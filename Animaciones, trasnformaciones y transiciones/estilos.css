@@ -1,0 +1,40 @@
+@keyframes miefecto {
+       0%{ width: 100px; }
+
+       30%{ width: 300px; }
+
+       65%{ width: 200px;
+       background-color: red; }
+
+       85%{ width: 300px;}
+
+       100%{ width: 100px;
+       background-color:green;}
+} /*esta llave cierra el un_efecto */
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  animation-name: miefecto;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: aparece;
+}
+
+@keyframes aparece {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+
+}

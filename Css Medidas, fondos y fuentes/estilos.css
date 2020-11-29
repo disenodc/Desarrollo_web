@@ -1,0 +1,54 @@
+h1 {
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+.normal {
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.italica {
+  font-style: italic;
+  color: blue;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.textoGrande {
+  font-size: 28px;
+}
+
+.textoRelativo {
+  font-size: 300%;
+}
+
+.impact {
+  font-family: Impact, sans-serif;
+}
+
+.comicSans {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.aLaDerecha {
+  text-align: right;
+}
+
+.mayusculas {
+  text-transform: uppercase;
+}
+
+.capitalizar {
+  text-transform: capitalize;
+}

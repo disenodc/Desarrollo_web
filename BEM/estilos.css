@@ -1,0 +1,30 @@
+.
+
+.noticia {
+  /*aca iria las propiedas y valores  */
+
+  margin: 10px;
+}
+
+.noticia__titulo {
+  /* alguna modificación de propiedades*/
+}
+
+.noticia__titulo2 {
+  /* alguna modificación de propiedades*/
+
+}
+.noticia__parrafo {
+  font-style: normal;
+  font-size: 12pt;
+}
+
+.noticia__resaltado {
+  font-style: italic;
+  font-size: 14pt;
+}
+
+.noticia__imagen {
+  margin-right: 20px;
+  margin-top: 30px;
+}
